@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 264
     height: 441.5
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -223,10 +223,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffff
+      scrollPos: {x: 0, y: 64}
+      m_SelectedIDs: c45b0000
+      m_LastClickedID: 23492
+      m_ExpandedIDs: 36fbffffa85c0000be5e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.0686667, y: 7.3325815, z: -4.8546424}
+    m_Target: {x: -7.8408885, y: 10.462359, z: -4.8649044}
     speed: 2
-    m_Value: {x: -2.0686667, y: 7.3325815, z: -4.8546424}
+    m_Value: {x: -7.8408885, y: 10.462359, z: -4.8649044}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -588,9 +588,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.464338
+    m_Target: 11.490473
     speed: 2
-    m_Value: 10.464338
+    m_Value: 11.490473
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -683,13 +683,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Rhythm Game Tutorial/Music
+    - Assets/Rhythm Game/Graphics
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Rhythm Game Tutorial/Music
+  - Assets/Rhythm Game/Graphics
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\KTH_WYH\DT2140 Multimodal Interaction & Interfaces\Lab\Lab1\Rhythm
     game
@@ -697,9 +697,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: b25f0000
-    m_LastClickedID: 24498
-    m_ExpandedIDs: 000000007c5f00007e5f0000805f0000825f0000845f0000865f0000885f00008e5f000000ca9a3bffffff7f
+    m_SelectedIDs: ca5f0000
+    m_LastClickedID: 24522
+    m_ExpandedIDs: 000000007e5f0000805f0000825f0000845f0000865f0000885f00008e5f0000b65f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,7 +727,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c5f00007e5f0000805f0000825f0000845f0000865f0000885f000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000007e5f0000805f0000825f0000845f0000865f0000885f0000b65f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -752,10 +752,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: c45b0000
+    m_LastClickedInstanceID: 23492
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000b25b000052780000
+    m_ExpandedInstanceIDs: c6230000b25b000052780000505f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -830,8 +830,8 @@ MonoBehaviour:
     y: 0
     width: 348
     height: 747
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}

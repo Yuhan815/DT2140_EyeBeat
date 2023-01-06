@@ -133,8 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3884484}
   - component: {fileID: 3884487}
-  - component: {fileID: 3884486}
   - component: {fileID: 3884485}
+  - component: {fileID: 3884488}
   m_Layer: 0
   m_Name: LeftArrow (10)
   m_TagString: Untagged
@@ -175,19 +175,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &3884486
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3884483}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &3884487
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -229,7 +216,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -240,6 +227,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &3884488
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &23735651
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,8 +250,8 @@ GameObject:
   m_Component:
   - component: {fileID: 23735652}
   - component: {fileID: 23735655}
-  - component: {fileID: 23735654}
   - component: {fileID: 23735653}
+  - component: {fileID: 23735656}
   m_Layer: 0
   m_Name: DownArrow (18)
   m_TagString: Untagged
@@ -266,14 +266,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23735651}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 58
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &23735653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,19 +292,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &23735654
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23735651}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &23735655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -346,7 +333,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -357,6 +344,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &23735656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23735651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &32157887
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,8 +367,8 @@ GameObject:
   m_Component:
   - component: {fileID: 32157888}
   - component: {fileID: 32157891}
-  - component: {fileID: 32157890}
   - component: {fileID: 32157889}
+  - component: {fileID: 32157892}
   m_Layer: 0
   m_Name: LeftArrow (8)
   m_TagString: Untagged
@@ -409,19 +409,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &32157890
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32157887}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &32157891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -463,7 +450,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -474,6 +461,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &32157892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32157887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &42740288
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,8 +614,8 @@ GameObject:
   m_Component:
   - component: {fileID: 82384583}
   - component: {fileID: 82384586}
-  - component: {fileID: 82384585}
   - component: {fileID: 82384584}
+  - component: {fileID: 82384587}
   m_Layer: 0
   m_Name: RightArrow
   m_TagString: Untagged
@@ -656,19 +656,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &82384585
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82384582}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &82384586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -710,7 +697,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -721,6 +708,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &82384587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82384582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &131768352
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,8 +815,8 @@ GameObject:
   m_Component:
   - component: {fileID: 143246646}
   - component: {fileID: 143246649}
-  - component: {fileID: 143246648}
   - component: {fileID: 143246647}
+  - component: {fileID: 143246650}
   m_Layer: 0
   m_Name: DownArrow (1)
   m_TagString: Untagged
@@ -831,14 +831,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143246645}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 41
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &143246647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -857,19 +857,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &143246648
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143246645}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &143246649
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -911,7 +898,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -922,6 +909,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &143246650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143246645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &149204872
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,8 +932,8 @@ GameObject:
   m_Component:
   - component: {fileID: 149204873}
   - component: {fileID: 149204876}
-  - component: {fileID: 149204875}
   - component: {fileID: 149204874}
+  - component: {fileID: 149204877}
   m_Layer: 0
   m_Name: UpArrow (7)
   m_TagString: Untagged
@@ -948,14 +948,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149204872}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &149204874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,19 +974,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &149204875
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149204872}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &149204876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1028,7 +1015,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1039,6 +1026,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &149204877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149204872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &170287000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,8 +1049,8 @@ GameObject:
   m_Component:
   - component: {fileID: 170287001}
   - component: {fileID: 170287004}
-  - component: {fileID: 170287003}
   - component: {fileID: 170287002}
+  - component: {fileID: 170287005}
   m_Layer: 0
   m_Name: LeftArrow (3)
   m_TagString: Untagged
@@ -1091,19 +1091,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &170287003
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170287000}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &170287004
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1145,7 +1132,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1156,6 +1143,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &170287005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170287000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &173567895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,8 +1166,8 @@ GameObject:
   m_Component:
   - component: {fileID: 173567896}
   - component: {fileID: 173567899}
-  - component: {fileID: 173567898}
   - component: {fileID: 173567897}
+  - component: {fileID: 173567900}
   m_Layer: 0
   m_Name: RightArrow (12)
   m_TagString: Untagged
@@ -1208,19 +1208,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &173567898
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173567895}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &173567899
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1262,7 +1249,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1273,6 +1260,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &173567900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173567895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &181452246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,8 +1283,8 @@ GameObject:
   m_Component:
   - component: {fileID: 181452247}
   - component: {fileID: 181452250}
-  - component: {fileID: 181452249}
   - component: {fileID: 181452248}
+  - component: {fileID: 181452251}
   m_Layer: 0
   m_Name: DownArrow (16)
   m_TagString: Untagged
@@ -1299,14 +1299,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181452246}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 56
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &181452248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,19 +1325,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &181452249
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181452246}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &181452250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1379,7 +1366,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1390,6 +1377,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &181452251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181452246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &238653395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,8 +1480,8 @@ GameObject:
   m_Component:
   - component: {fileID: 286199792}
   - component: {fileID: 286199795}
-  - component: {fileID: 286199794}
   - component: {fileID: 286199793}
+  - component: {fileID: 286199796}
   m_Layer: 0
   m_Name: UpArrow (3)
   m_TagString: Untagged
@@ -1496,14 +1496,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286199791}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &286199793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,19 +1522,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &286199794
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286199791}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &286199795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1576,7 +1563,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1587,6 +1574,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &286199796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286199791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &299537693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,8 +1597,8 @@ GameObject:
   m_Component:
   - component: {fileID: 299537694}
   - component: {fileID: 299537697}
-  - component: {fileID: 299537696}
   - component: {fileID: 299537695}
+  - component: {fileID: 299537698}
   m_Layer: 0
   m_Name: LeftArrow (16)
   m_TagString: Untagged
@@ -1639,19 +1639,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &299537696
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299537693}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &299537697
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1693,7 +1680,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1704,6 +1691,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &299537698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299537693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &300925020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,8 +1714,8 @@ GameObject:
   m_Component:
   - component: {fileID: 300925021}
   - component: {fileID: 300925024}
-  - component: {fileID: 300925023}
   - component: {fileID: 300925022}
+  - component: {fileID: 300925025}
   m_Layer: 0
   m_Name: RightArrow (3)
   m_TagString: Untagged
@@ -1756,19 +1756,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &300925023
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300925020}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &300925024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1810,7 +1797,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1821,6 +1808,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &300925025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300925020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &314719412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,8 +1831,8 @@ GameObject:
   m_Component:
   - component: {fileID: 314719413}
   - component: {fileID: 314719416}
-  - component: {fileID: 314719415}
   - component: {fileID: 314719414}
+  - component: {fileID: 314719417}
   m_Layer: 0
   m_Name: UpArrow (16)
   m_TagString: Untagged
@@ -1847,14 +1847,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314719412}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 36
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &314719414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1873,19 +1873,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &314719415
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314719412}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &314719416
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1927,7 +1914,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1938,6 +1925,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &314719417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314719412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &319775663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,8 +1948,8 @@ GameObject:
   m_Component:
   - component: {fileID: 319775664}
   - component: {fileID: 319775667}
-  - component: {fileID: 319775666}
   - component: {fileID: 319775665}
+  - component: {fileID: 319775668}
   m_Layer: 0
   m_Name: LeftArrow (9)
   m_TagString: Untagged
@@ -1990,19 +1990,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &319775666
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319775663}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &319775667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2044,7 +2031,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2055,6 +2042,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &319775668
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319775663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &323621405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,8 +2065,8 @@ GameObject:
   m_Component:
   - component: {fileID: 323621406}
   - component: {fileID: 323621409}
-  - component: {fileID: 323621408}
   - component: {fileID: 323621407}
+  - component: {fileID: 323621410}
   m_Layer: 0
   m_Name: LeftArrow (5)
   m_TagString: Untagged
@@ -2107,19 +2107,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &323621408
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323621405}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &323621409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2161,7 +2148,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2172,6 +2159,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &323621410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323621405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &325538175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,8 +2392,8 @@ GameObject:
   m_Component:
   - component: {fileID: 357056911}
   - component: {fileID: 357056912}
-  - component: {fileID: 357056913}
   - component: {fileID: 357056914}
+  - component: {fileID: 357056915}
   m_Layer: 0
   m_Name: LeftArrow (1)
   m_TagString: Untagged
@@ -2457,7 +2457,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2468,19 +2468,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &357056913
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357056910}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &357056914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2499,6 +2486,19 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
+--- !u!65 &357056915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357056910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &360206606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,8 +2509,8 @@ GameObject:
   m_Component:
   - component: {fileID: 360206607}
   - component: {fileID: 360206610}
-  - component: {fileID: 360206609}
   - component: {fileID: 360206608}
+  - component: {fileID: 360206611}
   m_Layer: 0
   m_Name: LeftArrow (14)
   m_TagString: Untagged
@@ -2551,19 +2551,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &360206609
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360206606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &360206610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2605,7 +2592,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2616,6 +2603,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &360206611
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360206606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &365225329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,8 +2626,8 @@ GameObject:
   m_Component:
   - component: {fileID: 365225330}
   - component: {fileID: 365225333}
-  - component: {fileID: 365225332}
   - component: {fileID: 365225331}
+  - component: {fileID: 365225334}
   m_Layer: 0
   m_Name: UpArrow (2)
   m_TagString: Untagged
@@ -2642,14 +2642,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365225329}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &365225331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,19 +2668,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &365225332
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365225329}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &365225333
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2722,7 +2709,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2733,6 +2720,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &365225334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365225329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &412859583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,8 +2743,8 @@ GameObject:
   m_Component:
   - component: {fileID: 412859584}
   - component: {fileID: 412859587}
-  - component: {fileID: 412859586}
   - component: {fileID: 412859585}
+  - component: {fileID: 412859588}
   m_Layer: 0
   m_Name: RightArrow (16)
   m_TagString: Untagged
@@ -2785,19 +2785,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &412859586
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412859583}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &412859587
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2839,7 +2826,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2850,6 +2837,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &412859588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412859583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &456913614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2860,8 +2860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 456913615}
   - component: {fileID: 456913618}
-  - component: {fileID: 456913617}
   - component: {fileID: 456913616}
+  - component: {fileID: 456913619}
   m_Layer: 0
   m_Name: RightArrow (4)
   m_TagString: Untagged
@@ -2902,19 +2902,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &456913617
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456913614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &456913618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2956,7 +2943,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2967,6 +2954,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &456913619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456913614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &491965942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,8 +2977,8 @@ GameObject:
   m_Component:
   - component: {fileID: 491965943}
   - component: {fileID: 491965946}
-  - component: {fileID: 491965945}
   - component: {fileID: 491965944}
+  - component: {fileID: 491965947}
   m_Layer: 0
   m_Name: RightArrow (9)
   m_TagString: Untagged
@@ -3019,19 +3019,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &491965945
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491965942}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &491965946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3073,7 +3060,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3084,6 +3071,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &491965947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491965942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &497328166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,8 +3409,8 @@ GameObject:
   m_Component:
   - component: {fileID: 537270525}
   - component: {fileID: 537270528}
-  - component: {fileID: 537270527}
   - component: {fileID: 537270526}
+  - component: {fileID: 537270529}
   m_Layer: 0
   m_Name: UpArrow (14)
   m_TagString: Untagged
@@ -3425,14 +3425,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537270524}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 34
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &537270526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3451,19 +3451,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &537270527
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537270524}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &537270528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3505,7 +3492,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3516,6 +3503,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &537270529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537270524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &616651307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3526,8 +3526,8 @@ GameObject:
   m_Component:
   - component: {fileID: 616651308}
   - component: {fileID: 616651311}
-  - component: {fileID: 616651310}
   - component: {fileID: 616651309}
+  - component: {fileID: 616651312}
   m_Layer: 0
   m_Name: UpArrow (18)
   m_TagString: Untagged
@@ -3542,14 +3542,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616651307}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 38
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &616651309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,19 +3568,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &616651310
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616651307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &616651311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3622,7 +3609,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3633,6 +3620,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &616651312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616651307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &692642720
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,8 +3643,8 @@ GameObject:
   m_Component:
   - component: {fileID: 692642721}
   - component: {fileID: 692642724}
-  - component: {fileID: 692642723}
   - component: {fileID: 692642722}
+  - component: {fileID: 692642725}
   m_Layer: 0
   m_Name: LeftArrow (15)
   m_TagString: Untagged
@@ -3685,19 +3685,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &692642723
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 692642720}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &692642724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3739,7 +3726,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3750,6 +3737,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &692642725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692642720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &693171218
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,8 +3760,8 @@ GameObject:
   m_Component:
   - component: {fileID: 693171219}
   - component: {fileID: 693171222}
-  - component: {fileID: 693171221}
   - component: {fileID: 693171220}
+  - component: {fileID: 693171223}
   m_Layer: 0
   m_Name: UpArrow (12)
   m_TagString: Untagged
@@ -3776,14 +3776,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693171218}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &693171220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3802,19 +3802,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &693171221
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693171218}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &693171222
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3856,7 +3843,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3867,6 +3854,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &693171223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693171218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &716742596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,8 +3877,8 @@ GameObject:
   m_Component:
   - component: {fileID: 716742597}
   - component: {fileID: 716742600}
-  - component: {fileID: 716742599}
   - component: {fileID: 716742598}
+  - component: {fileID: 716742601}
   m_Layer: 0
   m_Name: UpArrow (10)
   m_TagString: Untagged
@@ -3893,14 +3893,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716742596}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &716742598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3919,19 +3919,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &716742599
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716742596}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &716742600
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3973,7 +3960,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3984,6 +3971,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &716742601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716742596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &723331158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4074,8 +4074,8 @@ GameObject:
   m_Component:
   - component: {fileID: 737176937}
   - component: {fileID: 737176940}
-  - component: {fileID: 737176939}
   - component: {fileID: 737176938}
+  - component: {fileID: 737176941}
   m_Layer: 0
   m_Name: UpArrow (17)
   m_TagString: Untagged
@@ -4090,14 +4090,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737176936}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 70, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &737176938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4116,19 +4116,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &737176939
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737176936}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &737176940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4170,7 +4157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4181,6 +4168,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &737176941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737176936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &745663031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4588,8 +4588,8 @@ GameObject:
   m_Component:
   - component: {fileID: 774480952}
   - component: {fileID: 774480955}
-  - component: {fileID: 774480954}
   - component: {fileID: 774480953}
+  - component: {fileID: 774480956}
   m_Layer: 0
   m_Name: UpArrow
   m_TagString: Untagged
@@ -4604,14 +4604,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774480951}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &774480953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4630,19 +4630,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &774480954
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774480951}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &774480955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4684,7 +4671,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4695,6 +4682,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &774480956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774480951}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &811789720
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,8 +4705,8 @@ GameObject:
   m_Component:
   - component: {fileID: 811789721}
   - component: {fileID: 811789724}
-  - component: {fileID: 811789723}
   - component: {fileID: 811789722}
+  - component: {fileID: 811789725}
   m_Layer: 0
   m_Name: RightArrow (13)
   m_TagString: Untagged
@@ -4747,19 +4747,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &811789723
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811789720}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &811789724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4801,7 +4788,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4812,6 +4799,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &811789725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811789720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &818077121
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,8 +4822,8 @@ GameObject:
   m_Component:
   - component: {fileID: 818077122}
   - component: {fileID: 818077123}
-  - component: {fileID: 818077124}
   - component: {fileID: 818077125}
+  - component: {fileID: 818077126}
   m_Layer: 0
   m_Name: LeftArrow (2)
   m_TagString: Untagged
@@ -4887,7 +4887,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4898,19 +4898,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &818077124
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818077121}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &818077125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4929,6 +4916,19 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
+--- !u!65 &818077126
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818077121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &850770539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,8 +4939,8 @@ GameObject:
   m_Component:
   - component: {fileID: 850770540}
   - component: {fileID: 850770543}
-  - component: {fileID: 850770542}
   - component: {fileID: 850770541}
+  - component: {fileID: 850770544}
   m_Layer: 0
   m_Name: LeftArrow (7)
   m_TagString: Untagged
@@ -4981,19 +4981,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &850770542
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850770539}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &850770543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5035,7 +5022,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5046,6 +5033,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &850770544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850770539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &871731106
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,8 +5056,8 @@ GameObject:
   m_Component:
   - component: {fileID: 871731107}
   - component: {fileID: 871731110}
-  - component: {fileID: 871731109}
   - component: {fileID: 871731108}
+  - component: {fileID: 871731111}
   m_Layer: 0
   m_Name: UpArrow (1)
   m_TagString: Untagged
@@ -5072,14 +5072,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871731106}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &871731108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5098,19 +5098,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &871731109
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871731106}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &871731110
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5152,7 +5139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5163,6 +5150,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &871731111
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871731106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &875399374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,8 +5450,8 @@ GameObject:
   m_Component:
   - component: {fileID: 885082353}
   - component: {fileID: 885082356}
-  - component: {fileID: 885082355}
   - component: {fileID: 885082354}
+  - component: {fileID: 885082357}
   m_Layer: 0
   m_Name: RightArrow (18)
   m_TagString: Untagged
@@ -5492,19 +5492,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &885082355
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885082352}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &885082356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5546,7 +5533,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5557,6 +5544,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &885082357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885082352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &902206687
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,8 +5567,8 @@ GameObject:
   m_Component:
   - component: {fileID: 902206688}
   - component: {fileID: 902206691}
-  - component: {fileID: 902206690}
   - component: {fileID: 902206689}
+  - component: {fileID: 902206692}
   m_Layer: 0
   m_Name: DownArrow (10)
   m_TagString: Untagged
@@ -5583,14 +5583,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902206687}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 50
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &902206689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5609,19 +5609,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &902206690
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902206687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &902206691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5663,7 +5650,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5674,6 +5661,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &902206692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902206687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &910261975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5684,8 +5684,8 @@ GameObject:
   m_Component:
   - component: {fileID: 910261976}
   - component: {fileID: 910261979}
-  - component: {fileID: 910261978}
   - component: {fileID: 910261977}
+  - component: {fileID: 910261980}
   m_Layer: 0
   m_Name: RightArrow (5)
   m_TagString: Untagged
@@ -5726,19 +5726,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &910261978
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910261975}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &910261979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5780,7 +5767,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5791,6 +5778,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &910261980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910261975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &911655580
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,8 +5801,8 @@ GameObject:
   m_Component:
   - component: {fileID: 911655581}
   - component: {fileID: 911655584}
-  - component: {fileID: 911655583}
   - component: {fileID: 911655582}
+  - component: {fileID: 911655585}
   m_Layer: 0
   m_Name: DownArrow (11)
   m_TagString: Untagged
@@ -5817,14 +5817,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911655580}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 51
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &911655582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5843,19 +5843,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &911655583
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911655580}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &911655584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5897,7 +5884,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5908,6 +5895,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &911655585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911655580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &922197933
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,8 +5918,8 @@ GameObject:
   m_Component:
   - component: {fileID: 922197934}
   - component: {fileID: 922197937}
-  - component: {fileID: 922197936}
   - component: {fileID: 922197935}
+  - component: {fileID: 922197938}
   m_Layer: 0
   m_Name: DownArrow (4)
   m_TagString: Untagged
@@ -5934,14 +5934,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922197933}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 44
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &922197935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5960,19 +5960,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &922197936
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922197933}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &922197937
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6014,7 +6001,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6025,6 +6012,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &922197938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922197933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &925065751
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,8 +6035,8 @@ GameObject:
   m_Component:
   - component: {fileID: 925065752}
   - component: {fileID: 925065755}
-  - component: {fileID: 925065754}
   - component: {fileID: 925065753}
+  - component: {fileID: 925065756}
   m_Layer: 0
   m_Name: DownArrow (2)
   m_TagString: Untagged
@@ -6051,14 +6051,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925065751}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 42
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &925065753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6077,19 +6077,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &925065754
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925065751}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &925065755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6131,7 +6118,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6142,6 +6129,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &925065756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925065751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942684029
 GameObject:
   m_ObjectHideFlags: 0
@@ -6152,8 +6152,8 @@ GameObject:
   m_Component:
   - component: {fileID: 942684030}
   - component: {fileID: 942684033}
-  - component: {fileID: 942684032}
   - component: {fileID: 942684031}
+  - component: {fileID: 942684034}
   m_Layer: 0
   m_Name: DownArrow (15)
   m_TagString: Untagged
@@ -6168,14 +6168,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942684029}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 55
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &942684031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6194,19 +6194,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &942684032
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942684029}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &942684033
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6248,7 +6235,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6259,6 +6246,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &942684034
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942684029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &981203212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,8 +6269,8 @@ GameObject:
   m_Component:
   - component: {fileID: 981203213}
   - component: {fileID: 981203216}
-  - component: {fileID: 981203215}
   - component: {fileID: 981203214}
+  - component: {fileID: 981203217}
   m_Layer: 0
   m_Name: RightArrow (10)
   m_TagString: Untagged
@@ -6311,19 +6311,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &981203215
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981203212}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &981203216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6365,7 +6352,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6376,6 +6363,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &981203217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981203212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &988389789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,8 +6386,8 @@ GameObject:
   m_Component:
   - component: {fileID: 988389790}
   - component: {fileID: 988389793}
-  - component: {fileID: 988389792}
   - component: {fileID: 988389791}
+  - component: {fileID: 988389794}
   m_Layer: 0
   m_Name: UpArrow (11)
   m_TagString: Untagged
@@ -6402,14 +6402,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988389789}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &988389791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6428,19 +6428,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &988389792
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988389789}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &988389793
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6482,7 +6469,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6493,6 +6480,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &988389794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988389789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1018855199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6503,8 +6503,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1018855200}
   - component: {fileID: 1018855203}
-  - component: {fileID: 1018855202}
   - component: {fileID: 1018855201}
+  - component: {fileID: 1018855204}
   m_Layer: 0
   m_Name: UpArrow (4)
   m_TagString: Untagged
@@ -6519,14 +6519,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018855199}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1018855201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6545,19 +6545,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1018855202
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018855199}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1018855203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6599,7 +6586,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6610,6 +6597,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1018855204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018855199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1031219698
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,8 +6620,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1031219699}
   - component: {fileID: 1031219702}
-  - component: {fileID: 1031219701}
   - component: {fileID: 1031219700}
+  - component: {fileID: 1031219703}
   m_Layer: 0
   m_Name: RightArrow (6)
   m_TagString: Untagged
@@ -6662,19 +6662,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1031219701
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031219698}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1031219702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6716,7 +6703,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6727,6 +6714,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1031219703
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031219698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1040555607
 GameObject:
   m_ObjectHideFlags: 0
@@ -6737,8 +6737,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1040555608}
   - component: {fileID: 1040555611}
-  - component: {fileID: 1040555610}
   - component: {fileID: 1040555609}
+  - component: {fileID: 1040555612}
   m_Layer: 0
   m_Name: LeftArrow (12)
   m_TagString: Untagged
@@ -6779,19 +6779,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1040555610
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040555607}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1040555611
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6833,7 +6820,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6844,6 +6831,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1040555612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040555607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1085762449
 GameObject:
   m_ObjectHideFlags: 0
@@ -6854,8 +6854,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1085762450}
   - component: {fileID: 1085762453}
-  - component: {fileID: 1085762452}
   - component: {fileID: 1085762451}
+  - component: {fileID: 1085762454}
   m_Layer: 0
   m_Name: UpArrow (13)
   m_TagString: Untagged
@@ -6870,14 +6870,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085762449}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1085762451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6896,19 +6896,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1085762452
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085762449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1085762453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6950,7 +6937,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6961,6 +6948,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1085762454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085762449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1106291829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7097,8 +7097,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1154549686}
   - component: {fileID: 1154549689}
-  - component: {fileID: 1154549688}
   - component: {fileID: 1154549687}
+  - component: {fileID: 1154549690}
   m_Layer: 0
   m_Name: DownArrow (17)
   m_TagString: Untagged
@@ -7113,14 +7113,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154549685}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 57
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1154549687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7139,19 +7139,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1154549688
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154549685}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1154549689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7193,7 +7180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7204,6 +7191,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1154549690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154549685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1160336783
 GameObject:
   m_ObjectHideFlags: 0
@@ -7294,8 +7294,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1170411677}
   - component: {fileID: 1170411680}
-  - component: {fileID: 1170411679}
   - component: {fileID: 1170411678}
+  - component: {fileID: 1170411681}
   m_Layer: 0
   m_Name: RightArrow (1)
   m_TagString: Untagged
@@ -7336,19 +7336,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1170411679
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170411676}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1170411680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7390,7 +7377,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7401,6 +7388,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1170411681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170411676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1183993705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7480,8 +7480,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1195468479}
   - component: {fileID: 1195468482}
-  - component: {fileID: 1195468481}
   - component: {fileID: 1195468480}
+  - component: {fileID: 1195468483}
   m_Layer: 0
   m_Name: RightArrow (19)
   m_TagString: Untagged
@@ -7522,19 +7522,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1195468481
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195468478}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1195468482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7576,7 +7563,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7587,6 +7574,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1195468483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195468478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1256602043
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,8 +7597,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1256602044}
   - component: {fileID: 1256602047}
-  - component: {fileID: 1256602046}
   - component: {fileID: 1256602045}
+  - component: {fileID: 1256602048}
   m_Layer: 0
   m_Name: 'LeftArrow '
   m_TagString: Untagged
@@ -7639,19 +7639,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1256602046
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256602043}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1256602047
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7693,7 +7680,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7704,6 +7691,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1256602048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256602043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1267270490
 GameObject:
   m_ObjectHideFlags: 0
@@ -7714,8 +7714,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1267270491}
   - component: {fileID: 1267270494}
-  - component: {fileID: 1267270493}
   - component: {fileID: 1267270492}
+  - component: {fileID: 1267270495}
   m_Layer: 0
   m_Name: DownArrow (14)
   m_TagString: Untagged
@@ -7730,14 +7730,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267270490}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 54
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1267270492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7756,19 +7756,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1267270493
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267270490}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1267270494
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7810,7 +7797,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7821,6 +7808,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1267270495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267270490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1278743893
 GameObject:
   m_ObjectHideFlags: 0
@@ -7831,8 +7831,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1278743894}
   - component: {fileID: 1278743897}
-  - component: {fileID: 1278743896}
   - component: {fileID: 1278743895}
+  - component: {fileID: 1278743898}
   m_Layer: 0
   m_Name: RightArrow (11)
   m_TagString: Untagged
@@ -7873,19 +7873,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1278743896
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278743893}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1278743897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7927,7 +7914,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7938,6 +7925,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1278743898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278743893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1294892953
 GameObject:
   m_ObjectHideFlags: 0
@@ -8028,8 +8028,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1337297761}
   - component: {fileID: 1337297764}
-  - component: {fileID: 1337297763}
   - component: {fileID: 1337297762}
+  - component: {fileID: 1337297765}
   m_Layer: 0
   m_Name: DownArrow (13)
   m_TagString: Untagged
@@ -8044,14 +8044,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337297760}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 60, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 53
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1337297762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8070,19 +8070,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1337297763
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337297760}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1337297764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8124,7 +8111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8135,6 +8122,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1337297765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337297760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1361609441
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,8 +8145,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1361609442}
   - component: {fileID: 1361609445}
-  - component: {fileID: 1361609444}
   - component: {fileID: 1361609443}
+  - component: {fileID: 1361609446}
   m_Layer: 0
   m_Name: UpArrow (9)
   m_TagString: Untagged
@@ -8161,14 +8161,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361609441}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1361609443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8187,19 +8187,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1361609444
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361609441}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1361609445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8241,7 +8228,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8252,6 +8239,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1361609446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361609441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1369981434
 GameObject:
   m_ObjectHideFlags: 0
@@ -8262,8 +8262,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1369981435}
   - component: {fileID: 1369981438}
-  - component: {fileID: 1369981437}
   - component: {fileID: 1369981436}
+  - component: {fileID: 1369981439}
   m_Layer: 0
   m_Name: LeftArrow (13)
   m_TagString: Untagged
@@ -8304,19 +8304,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1369981437
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369981434}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1369981438
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8358,7 +8345,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8369,6 +8356,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1369981439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369981434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1373481909
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,8 +8379,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1373481910}
   - component: {fileID: 1373481911}
-  - component: {fileID: 1373481912}
   - component: {fileID: 1373481913}
+  - component: {fileID: 1373481914}
   m_Layer: 0
   m_Name: DownArrow
   m_TagString: Untagged
@@ -8395,14 +8395,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373481909}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1373481911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8444,7 +8444,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8455,19 +8455,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &1373481912
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373481909}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1373481913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8486,6 +8473,19 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
+--- !u!65 &1373481914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373481909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1392113487
 GameObject:
   m_ObjectHideFlags: 0
@@ -8576,8 +8576,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1404568160}
   - component: {fileID: 1404568163}
-  - component: {fileID: 1404568162}
   - component: {fileID: 1404568161}
+  - component: {fileID: 1404568164}
   m_Layer: 0
   m_Name: DownArrow (5)
   m_TagString: Untagged
@@ -8592,14 +8592,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404568159}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 45
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1404568161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8618,19 +8618,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1404568162
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404568159}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1404568163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8672,7 +8659,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8683,6 +8670,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1404568164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404568159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1410439590
 GameObject:
   m_ObjectHideFlags: 0
@@ -8818,8 +8818,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1411603845}
   - component: {fileID: 1411603848}
-  - component: {fileID: 1411603847}
   - component: {fileID: 1411603846}
+  - component: {fileID: 1411603849}
   m_Layer: 0
   m_Name: RightArrow (15)
   m_TagString: Untagged
@@ -8860,19 +8860,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1411603847
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411603844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1411603848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8914,7 +8901,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8925,6 +8912,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1411603849
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411603844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1413426460
 GameObject:
   m_ObjectHideFlags: 0
@@ -8935,8 +8935,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1413426461}
   - component: {fileID: 1413426464}
-  - component: {fileID: 1413426463}
   - component: {fileID: 1413426462}
+  - component: {fileID: 1413426465}
   m_Layer: 0
   m_Name: RightArrow (8)
   m_TagString: Untagged
@@ -8977,19 +8977,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1413426463
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413426460}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1413426464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9031,7 +9018,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9042,6 +9029,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1413426465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413426460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1417942045
 GameObject:
   m_ObjectHideFlags: 0
@@ -9052,8 +9052,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1417942046}
   - component: {fileID: 1417942049}
-  - component: {fileID: 1417942048}
   - component: {fileID: 1417942047}
+  - component: {fileID: 1417942050}
   m_Layer: 0
   m_Name: DownArrow (3)
   m_TagString: Untagged
@@ -9068,14 +9068,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417942045}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 43
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1417942047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9094,19 +9094,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1417942048
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417942045}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1417942049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9148,7 +9135,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9159,6 +9146,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1417942050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417942045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1422388139
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,8 +9169,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1422388140}
   - component: {fileID: 1422388143}
-  - component: {fileID: 1422388142}
   - component: {fileID: 1422388141}
+  - component: {fileID: 1422388144}
   m_Layer: 0
   m_Name: RightArrow (17)
   m_TagString: Untagged
@@ -9211,19 +9211,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1422388142
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422388139}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1422388143
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9265,7 +9252,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9276,6 +9263,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1422388144
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422388139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1456203660
 GameObject:
   m_ObjectHideFlags: 0
@@ -9286,8 +9286,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1456203661}
   - component: {fileID: 1456203664}
-  - component: {fileID: 1456203663}
   - component: {fileID: 1456203662}
+  - component: {fileID: 1456203665}
   m_Layer: 0
   m_Name: DownArrow (9)
   m_TagString: Untagged
@@ -9302,14 +9302,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456203660}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 49
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1456203662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9328,19 +9328,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1456203663
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456203660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1456203664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9382,7 +9369,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9393,6 +9380,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1456203665
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456203660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1461493263
 GameObject:
   m_ObjectHideFlags: 0
@@ -9403,8 +9403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1461493264}
   - component: {fileID: 1461493267}
-  - component: {fileID: 1461493266}
   - component: {fileID: 1461493265}
+  - component: {fileID: 1461493268}
   m_Layer: 0
   m_Name: LeftArrow (11)
   m_TagString: Untagged
@@ -9445,19 +9445,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1461493266
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461493263}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1461493267
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9499,7 +9486,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9510,6 +9497,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1461493268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461493263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1463607827
 GameObject:
   m_ObjectHideFlags: 0
@@ -9520,8 +9520,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1463607828}
   - component: {fileID: 1463607831}
-  - component: {fileID: 1463607830}
   - component: {fileID: 1463607829}
+  - component: {fileID: 1463607832}
   m_Layer: 0
   m_Name: LeftArrow (4)
   m_TagString: Untagged
@@ -9562,19 +9562,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1463607830
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463607827}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1463607831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9616,7 +9603,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9627,6 +9614,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1463607832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463607827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1475889471
 GameObject:
   m_ObjectHideFlags: 0
@@ -9765,8 +9765,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1486952564}
   - component: {fileID: 1486952567}
-  - component: {fileID: 1486952566}
   - component: {fileID: 1486952565}
+  - component: {fileID: 1486952568}
   m_Layer: 0
   m_Name: RightArrow (7)
   m_TagString: Untagged
@@ -9807,19 +9807,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1486952566
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486952563}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1486952567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9861,7 +9848,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9872,6 +9859,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1486952568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486952563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1513796498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9984,8 +9984,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1514563869}
   - component: {fileID: 1514563872}
-  - component: {fileID: 1514563871}
   - component: {fileID: 1514563870}
+  - component: {fileID: 1514563873}
   m_Layer: 0
   m_Name: DownArrow (6)
   m_TagString: Untagged
@@ -10000,14 +10000,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514563868}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 46
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1514563870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10026,19 +10026,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1514563871
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514563868}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1514563872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10080,7 +10067,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10091,6 +10078,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1514563873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514563868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1533617741
 GameObject:
   m_ObjectHideFlags: 0
@@ -10226,8 +10226,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1537699548}
   - component: {fileID: 1537699551}
-  - component: {fileID: 1537699550}
   - component: {fileID: 1537699549}
+  - component: {fileID: 1537699552}
   m_Layer: 0
   m_Name: DownArrow (7)
   m_TagString: Untagged
@@ -10242,14 +10242,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537699547}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 47
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1537699549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10268,19 +10268,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1537699550
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537699547}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1537699551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10322,7 +10309,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10333,6 +10320,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1537699552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537699547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1541735705
 GameObject:
   m_ObjectHideFlags: 0
@@ -10343,8 +10343,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1541735706}
   - component: {fileID: 1541735709}
-  - component: {fileID: 1541735708}
   - component: {fileID: 1541735707}
+  - component: {fileID: 1541735710}
   m_Layer: 0
   m_Name: DownArrow (8)
   m_TagString: Untagged
@@ -10359,14 +10359,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541735705}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 48
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1541735707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10385,19 +10385,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1541735708
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541735705}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1541735709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10439,7 +10426,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10450,6 +10437,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1541735710
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541735705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1557962456
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,8 +10460,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1557962457}
   - component: {fileID: 1557962460}
-  - component: {fileID: 1557962459}
   - component: {fileID: 1557962458}
+  - component: {fileID: 1557962461}
   m_Layer: 0
   m_Name: LeftArrow (19)
   m_TagString: Untagged
@@ -10502,19 +10502,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1557962459
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557962456}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1557962460
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10556,7 +10543,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10567,6 +10554,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1557962461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557962456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1601014004
 GameObject:
   m_ObjectHideFlags: 0
@@ -10761,8 +10761,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1605709855}
   - component: {fileID: 1605709858}
-  - component: {fileID: 1605709857}
   - component: {fileID: 1605709856}
+  - component: {fileID: 1605709859}
   m_Layer: 0
   m_Name: RightArrow (14)
   m_TagString: Untagged
@@ -10803,19 +10803,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1605709857
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605709854}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1605709858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10857,7 +10844,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10868,6 +10855,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1605709859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605709854}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1665987925
 GameObject:
   m_ObjectHideFlags: 0
@@ -10946,8 +10946,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1724667888}
   - component: {fileID: 1724667891}
-  - component: {fileID: 1724667890}
   - component: {fileID: 1724667889}
+  - component: {fileID: 1724667892}
   m_Layer: 0
   m_Name: UpArrow (6)
   m_TagString: Untagged
@@ -10962,14 +10962,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724667887}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1724667889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10988,19 +10988,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1724667890
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724667887}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1724667891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11042,7 +11029,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11053,6 +11040,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1724667892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724667887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1759577133
 GameObject:
   m_ObjectHideFlags: 0
@@ -11063,8 +11063,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1759577134}
   - component: {fileID: 1759577137}
-  - component: {fileID: 1759577136}
   - component: {fileID: 1759577135}
+  - component: {fileID: 1759577138}
   m_Layer: 0
   m_Name: UpArrow (19)
   m_TagString: Untagged
@@ -11079,14 +11079,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759577133}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 80, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1759577135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11105,19 +11105,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1759577136
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759577133}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1759577137
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11159,7 +11146,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11170,6 +11157,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1759577138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759577133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1761272995
 GameObject:
   m_ObjectHideFlags: 0
@@ -11180,8 +11180,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1761272996}
   - component: {fileID: 1761272999}
-  - component: {fileID: 1761272998}
   - component: {fileID: 1761272997}
+  - component: {fileID: 1761273000}
   m_Layer: 0
   m_Name: LeftArrow (6)
   m_TagString: Untagged
@@ -11222,19 +11222,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1761272998
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761272995}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1761272999
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11276,7 +11263,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11287,6 +11274,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1761273000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761272995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1780156728
 GameObject:
   m_ObjectHideFlags: 0
@@ -11297,8 +11297,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1780156729}
   - component: {fileID: 1780156732}
-  - component: {fileID: 1780156731}
   - component: {fileID: 1780156730}
+  - component: {fileID: 1780156733}
   m_Layer: 0
   m_Name: DownArrow (19)
   m_TagString: Untagged
@@ -11313,14 +11313,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780156728}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 59
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1780156730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11339,19 +11339,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1780156731
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780156728}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1780156732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11393,7 +11380,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11404,6 +11391,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1780156733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780156728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1791990392
 GameObject:
   m_ObjectHideFlags: 0
@@ -11529,8 +11529,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1864352458}
   - component: {fileID: 1864352461}
-  - component: {fileID: 1864352460}
   - component: {fileID: 1864352459}
+  - component: {fileID: 1864352462}
   m_Layer: 0
   m_Name: RightArrow (2)
   m_TagString: Untagged
@@ -11571,19 +11571,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1864352460
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864352457}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1864352461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11625,7 +11612,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc08e46d4d2620244953789fd3f76dea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11636,6 +11623,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1864352462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864352457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1881024455
 GameObject:
   m_ObjectHideFlags: 0
@@ -11931,8 +11931,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1925182344}
   - component: {fileID: 1925182347}
-  - component: {fileID: 1925182346}
   - component: {fileID: 1925182345}
+  - component: {fileID: 1925182348}
   m_Layer: 0
   m_Name: DownArrow (12)
   m_TagString: Untagged
@@ -11947,14 +11947,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925182343}
-  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 52
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1925182345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11973,19 +11973,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1925182346
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925182343}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1925182347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12027,7 +12014,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b493f085644ef43488e21da43bca53e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12038,6 +12025,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1925182348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925182343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1927447213
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,8 +12048,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1927447214}
   - component: {fileID: 1927447217}
-  - component: {fileID: 1927447216}
   - component: {fileID: 1927447215}
+  - component: {fileID: 1927447218}
   m_Layer: 0
   m_Name: UpArrow (15)
   m_TagString: Untagged
@@ -12064,14 +12064,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927447213}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 35
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1927447215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12090,19 +12090,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1927447216
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927447213}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1927447217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12144,7 +12131,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12155,6 +12142,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1927447218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927447213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1936125533
 GameObject:
   m_ObjectHideFlags: 0
@@ -12165,8 +12165,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1936125534}
   - component: {fileID: 1936125537}
-  - component: {fileID: 1936125536}
   - component: {fileID: 1936125535}
+  - component: {fileID: 1936125538}
   m_Layer: 0
   m_Name: UpArrow (5)
   m_TagString: Untagged
@@ -12181,14 +12181,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936125533}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1936125535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12207,19 +12207,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1936125536
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936125533}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1936125537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12261,7 +12248,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12272,6 +12259,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1936125538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936125533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1954822625
 GameObject:
   m_ObjectHideFlags: 0
@@ -12412,8 +12412,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1961829127}
   - component: {fileID: 1961829130}
-  - component: {fileID: 1961829129}
   - component: {fileID: 1961829128}
+  - component: {fileID: 1961829131}
   m_Layer: 0
   m_Name: LeftArrow (18)
   m_TagString: Untagged
@@ -12454,19 +12454,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &1961829129
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961829126}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1961829130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12508,7 +12495,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12519,6 +12506,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1961829131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961829126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1971809611
 GameObject:
   m_ObjectHideFlags: 0
@@ -12769,8 +12769,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2001438388}
   - component: {fileID: 2001438391}
-  - component: {fileID: 2001438390}
   - component: {fileID: 2001438389}
+  - component: {fileID: 2001438392}
   m_Layer: 0
   m_Name: LeftArrow (17)
   m_TagString: Untagged
@@ -12811,19 +12811,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &2001438390
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001438387}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &2001438391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12865,7 +12852,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52d3ea30ba58a7e499918a7d1602ce8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12876,6 +12863,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2001438392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001438387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2030347559
 GameObject:
   m_ObjectHideFlags: 0
@@ -13081,8 +13081,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2138442931}
   - component: {fileID: 2138442934}
-  - component: {fileID: 2138442933}
   - component: {fileID: 2138442932}
+  - component: {fileID: 2138442935}
   m_Layer: 0
   m_Name: UpArrow (8)
   m_TagString: Untagged
@@ -13097,14 +13097,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138442930}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106291831}
   m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2138442932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13123,19 +13123,6 @@ MonoBehaviour:
   goodEffect: {fileID: 634047261774444323, guid: b3676a9170645a346a7bdb5356d63c3f, type: 3}
   perfectEffect: {fileID: 7984719737120463189, guid: 3d3eb38a6578e8a41b846e993b6ee5d7, type: 3}
   missEffect: {fileID: 4949927543988111303, guid: 34bf149344d62954f936c71f4dc32818, type: 3}
---- !u!135 &2138442933
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138442930}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &2138442934
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13177,7 +13164,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff5da9d1099a83d4db0789264520c41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13188,3 +13175,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2138442935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138442930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.23, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
