@@ -9,6 +9,8 @@ using Tobii.Gaming;
 
 public class GameHandler : MonoBehaviour
 {
+    public SoundDetect soundDetector;
+
     // Circle
     public GameObject CirclePrefab;
     public int NeedCircle;
@@ -125,10 +127,11 @@ public class GameHandler : MonoBehaviour
                 ReadLine(path);
             }
             // Click event clicking on the circle
-            if(CircleList[NeedCircle].GetComponent<Circle>().isGazed) { 
-                  Destroy(CircleList[NeedCircle]);
-                  audio.PlayOneShot(HitSound, 1f);
-                  NeedCircle++;
+            if(this.soundDetector.GetDetectionResult() && CircleList[NeedCircle].GetComponent<Circle>().isGazed) {
+                print("Catch!");
+                Destroy(CircleList[NeedCircle]);
+                audio.PlayOneShot(HitSound, 1f);
+                NeedCircle++;
             } 
         }
     }

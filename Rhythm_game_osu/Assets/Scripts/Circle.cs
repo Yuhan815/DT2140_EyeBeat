@@ -40,7 +40,6 @@ public class Circle : MonoBehaviour
         if (_gazeAwareComponent.HasGazeFocus)
         {
             isGazed = true;
-            print("Catch!");
         }
         else
         {

@@ -39,6 +39,7 @@ public class SoundDetect : MonoBehaviour
         if (micro_ == null)
         {
             micro_ = Microphone.devices[0];
+            print(micro_);
         }
 
         audio_.clip = Microphone.Start(micro_, true, 1, sample_freq);
