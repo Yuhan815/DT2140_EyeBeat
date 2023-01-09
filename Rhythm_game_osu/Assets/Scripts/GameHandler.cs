@@ -55,7 +55,7 @@ public class GameHandler : MonoBehaviour
             if (webRequest.isNetworkError) {
                 Debug.LogError (webRequest.error);
                 Debug.Log("Selection: Default Windows path.");
-                path = Application.dataPath + "/StreamingAssets/2.osu";
+                path = Application.dataPath + "/StreamingAssets/33.osu";
             }
             else {
                 // WebGL request
@@ -75,7 +75,7 @@ public class GameHandler : MonoBehaviour
     {
         Application.targetFrameRate = 0;
         QualitySettings.vSyncCount = 0;
-        StartCoroutine(GetRequest ("2.osu"));
+        StartCoroutine(GetRequest ("33.osu"));
         audio.Play();
     }
 
