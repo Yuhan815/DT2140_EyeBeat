@@ -6,6 +6,7 @@ public class Circle : MonoBehaviour
     public GameObject CircleAccuracy, CircleBody, CircleBackGround, CircleCombo;
     private SpriteRenderer approachcircle, hitcircle, hitcircleoverlay, circlecombo;
     private GameObject CircleObject, GameControl;
+    [SerializeField] public GameObject Miss;
     private Vector3 AccuracyChange;
     private Color CircleColor;
     private GameHandler gameHandler;
@@ -51,7 +52,9 @@ public class Circle : MonoBehaviour
             if(CircleAccuracy.transform.localScale.x < targetScale){
                 ScaleAccuracy = false;
                 gameHandler.NeedCircle++;
+                gameHandler.missCircle++;
                 this.enabled = false;
+                Instantiate(Miss,this.transform.position,Quaternion.identity);
                 Destroy(CircleObject);
             }
         }

@@ -12,13 +12,15 @@ public class GameHandler : MonoBehaviour
     public SoundDetect soundDetector;
 
     // Circle
-    public GameObject CirclePrefab;
+    public GameObject CirclePrefab, Good;
     public int NeedCircle;
     private List<GameObject> CircleList = new List<GameObject>();
     private int CountCircle = 0;
     private bool NewCombo;
     private int Combo = 1;
     bool StartGame = false;
+    public int hitCircle = 0;
+    public int missCircle = 0;
 
     //Number assets
     [SerializeField]
@@ -55,7 +57,7 @@ public class GameHandler : MonoBehaviour
             if (webRequest.isNetworkError) {
                 Debug.LogError (webRequest.error);
                 Debug.Log("Selection: Default Windows path.");
-                path = Application.dataPath + "/StreamingAssets/2.osu";
+                path = Application.dataPath + "/StreamingAssets/33.osu";
             }
             else {
                 // WebGL request
@@ -75,7 +77,7 @@ public class GameHandler : MonoBehaviour
     {
         Application.targetFrameRate = 0;
         QualitySettings.vSyncCount = 0;
-        StartCoroutine(GetRequest ("2.osu"));
+        StartCoroutine(GetRequest ("33.osu"));
         audio.Play();
     }
 
@@ -130,9 +132,23 @@ public class GameHandler : MonoBehaviour
             if(this.soundDetector.GetDetectionResult() && CircleList[NeedCircle].GetComponent<Circle>().isGazed) {
                 print("Catch!");
                 Destroy(CircleList[NeedCircle]);
+                hitCircle++;
+                Instantiate(Good,CircleList[NeedCircle].transform.position,Quaternion.identity);
                 audio.PlayOneShot(HitSound, 1f);
                 NeedCircle++;
             } 
         }
     }
+
+    public int scorecount()
+    {
+        //Console.WriteLine(hitCircle);
+        return hitCircle;
+    }
+
+    public int misscount()
+    {
+        return missCircle;
+    }
+
 }

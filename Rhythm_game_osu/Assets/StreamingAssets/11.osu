@@ -1,0 +1,53 @@
+﻿osu file format v128
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 1
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+SamplesMatchPlaybackRate: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 0
+GridSize: 32
+TimelineZoom: 1
+
+[Metadata]
+Title: 
+Artist: 
+Creator: Guest
+Version: 
+
+[Difficulty]
+HPDrainRate: 5
+CircleSize: 5
+OverallDifficulty: 5
+ApproachRate: 5
+SliderMultiplier: 1
+SliderTickRate: 1
+
+[Events]
+
+[TimingPoints]
+0,1000,4,1,0,100,1,0
+0,-100,4,1,0,100,0,0
+
+
+[HitObjects]
+254.88478,194.4745,3000,5,0,0:0:0:0:
+254.3272,192.2441,4000,1,0,0:0:0:0:
+256.55762,191.68651,6000,1,0,0:0:0:0:
+255.99998,191.68651,8000,1,0,0:0:0:0:
+255.99998,191.68651,10000,1,0,0:0:0:0:
+255.99998,191.68651,12000,1,0,0:0:0:0:
+255.99998,191.68651,14000,1,0,0:0:0:0:
+255.99998,191.68651,15000,1,0,0:0:0:0:
+255.99998,191.68651,17000,1,0,0:0:0:0:
+255.99998,191.68651,19000,1,0,0:0:0:0:
+255.99998,191.68651,21000,1,0,0:0:0:0:

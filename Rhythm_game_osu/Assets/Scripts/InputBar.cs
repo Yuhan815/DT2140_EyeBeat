@@ -11,6 +11,12 @@ public class InputBar : MonoBehaviour
     ZthirdNumberSprite, XfirstNumberSprite, XsecondNumberSprite, XthirdNumberSprite;
     private int zCount, xCount;
     private int digitCountZ, digitCountX;
+    public int updateScore = 0;
+    private int currentScore = 0;
+    public int updateMiss = 0;
+    private int currentMiss = 0;
+    public GameHandler counter;
+
     void Start()
     {
         ZfirstNumberSprite = zFirst.GetComponent<SpriteRenderer>();
@@ -70,13 +76,19 @@ public class InputBar : MonoBehaviour
 
     void Update()
     {
+        updateScore = counter.scorecount();
+        updateMiss = counter.misscount();
         // Check input and get count numbers in variable
-        if (Input.GetKeyDown("z") || Input.GetMouseButtonDown(0)){
+        //if (Input.GetKeyDown("z") || Input.GetMouseButtonDown(0)){
+        if(updateScore > currentScore){
+            currentScore++;
             zCount++;
             digitCountZ = (int)Math.Log10(zCount) + 1;
             SpriteRenderer();
         }
-        if (Input.GetKeyDown("x") || Input.GetMouseButtonDown(1)){
+        if(updateMiss > currentMiss){
+        //if (Input.GetKeyDown("x") || Input.GetMouseButtonDown(1)){
+            currentMiss++;
             xCount++;
             digitCountX = (int)Math.Log10(xCount) + 1;
             SpriteRenderer();
